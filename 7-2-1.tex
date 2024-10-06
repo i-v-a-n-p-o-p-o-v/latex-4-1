@@ -1,0 +1,51 @@
+\documentclass{article}
+
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+
+\usepackage[a4paper]{geometry}
+
+%% Figures
+\usepackage{tkz-euclide}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+%% Hyphenation rules
+\usepackage{hyphenat}
+
+\usepackage[hidelinks]{hyperref}
+
+%%colorfull
+\usepackage{xcolor}
+
+\usepackage{indentfirst}
+
+\linespread{1.3}     % Междустрочный интервал
+\parindent = 0.75cm   % Красная строка
+
+
+\begin{document}
+    Междустрочный интервал во всем документе равен 1.3 пункта, отступ красной строки 0.75 см.
+
+    Это текст абзаца 2.
+
+    Это текст абзаца 3.
+
+    \noindent Это текст абзаца 4. Для него осуществить подавление отступа красной строки.
+
+    \vspace{1.5cm}
+    Между этим и предыдущим абзацем установить вертикальный отступ в 1.5 см.
+
+    В этом\\ абзаце требуется\\ установить разрыв\\ через каждые\\ два слова.
+    
+    \centering
+    Это предложение должно быть\\ отображено именно\\ так!
+    
+    \vspace{1.5cm}
+    Для этого предложения\\ уменьшите междустрочный интервал\\ до 1.0.
+
+    \vspace{1cm}
+    Посреди этого предложения\hspace{3cm} установили большой пробел.
+\end{document}

@@ -1,0 +1,38 @@
+\documentclass[8pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[a5paper, left=0.2cm, bottom=0cm, right=0.2]{geometry}
+%% Russian language support
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+
+\usepackage{multirow}
+
+%% Figures
+\usepackage{tkz-euclide}
+\usepackage{subcaption}
+\usepackage{amsmath}
+
+%% Hyphenation rules
+\usepackage{hyphenat}
+\hyphenation{ма-те-ма-ти-ка вос-ста-нав-ли-вать}
+
+\usepackage{pdflscape}
+
+\begin{document}
+% \thispagestyle{empty}
+
+\begin{landscape}
+\centering
+\begin{tabular}{ p{3cm} | p{5cm}|p{5cm}|p{5cm}}
+\hline
+Период & Концепция использования информации&Вид &Цель использования \\
+\hline
+1950 - 1960 гг.& Бумажный поток & ИС обработки расчетных документов на электромеханических бухгалтерских машинах & Повышение скорости. Упрощение проедуры обработки отчетов\\
+1960 - 1970 гг.& Подготовка отчетов& Управленчиские ИС для производственной информации & Ускорение процесса отчетности\\
+1970 - 1980 гг.& Управленчиский контроль реализации& Системмы поддержки принятия решений. Системы для высшего звена управления & Выработка наиболее рационального решения\\
+с 1980 гг.& Информация - стратегический ресурс конкуренции & Страгетические ИС. Автоматизированные офисы & Выживание и процветание фирмы\\
+\end{tabular}
+\end{landscape}
+\end{document}
